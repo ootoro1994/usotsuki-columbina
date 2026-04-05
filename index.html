@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>嘘月コロンビーナ - 原神動画まとめ</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+background: 
+  linear-gradient(rgba(10,10,20,0.8), rgba(10,10,20,0.9)),
+ url("https://images.unsplash.com/photo-1506744038136-46273834b3fb") no-repeat center/cover;
+
+  color: #eee;
+}
+
+/* ヘッダー */
+header {
+  text-align: center;
+  padding: 25px;
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #f5d98c;
+  text-shadow: 0 0 10px rgba(245, 217, 140, 0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* コンテナ */
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* カード */
+.video-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 215, 130, 0.2);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(255, 215, 130, 0.2);
+}
+
+/* 動画 */
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+}
+
+/* タイトル */
+.title {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #f5d98c;
+}
+
+/* 説明 */
+.desc {
+  color: #bbb;
+}
+
+/* 評価 */
+.rating {
+  margin-top: 10px;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background: rgba(0,0,0,0.3);
+  padding: 12px;
+  backdrop-filter: blur(5px);
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #f5d98c;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+  嘘月コロンビーナ
+</header>
+
+<nav>
+  <a href="#">考察</a>
+  <a href="#">ネタ</a>
+  <a href="#">攻略</a>
+  <a href="#">都市伝説</a>
+</nav>
+
+<div class="container">
+
+  <!-- 動画1 -->
+  <div class="video-card">
+    <iframe src="https://www.youtube.com/embed/abc123XYZ"></iframe>
+    <div class="title">フリーナの正体は○○だった？最新考察</div>
+    <div class="desc">
+      水神フリーナの行動から見える違和感を徹底分析。
+    </div>
+    <div class="rating">嘘月度：★★☆</div>
+  </div>
+
+  <!-- 動画2 -->
+  <div class="video-card">
+    <iframe src="https://www.youtube.com/embed/abc123XYZ"></iframe>
+    <div class="title">知らないと損する隠し仕様まとめ</div>
+    <div class="desc">
+      意外と知られていない小ネタ・裏技を紹介。
+    </div>
+    <div class="rating">嘘月度：★☆☆</div>
+  </div>
+
+  <!-- 動画3 -->
+  <div class="video-card">
+    <iframe src="https://www.youtube.com/embed/abc123XYZ"></iframe>
+    <div class="title">スカラマシュの過去がヤバすぎる</div>
+    <div class="desc">
+      ストーリーから読み解く悲劇の真相。
+    </div>
+    <div class="rating">嘘月度：★★★</div>
+  </div>
+
+</div>
+
+<footer>
+  © 嘘月コロンビーナ
+</footer>
+
+</body>
+</html>あ
