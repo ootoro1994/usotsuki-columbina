@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>嘘月コロンビーナ - 原神考察まとめ</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background:
+    linear-gradient(rgba(10,10,20,0.85), rgba(10,10,20,0.95)),
+    url("https://images.unsplash.com/photo-1506744038136-46273834b3fb") no-repeat center/cover;
+  color: #eee;
+}
+
+/* ヘッダー */
+header {
+  text-align: center;
+  padding: 25px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #f5d98c;
+  text-shadow: 0 0 15px rgba(245,217,140,0.6);
+}
+
+/* ナビ */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background: rgba(0,0,0,0.4);
+  padding: 12px;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f5d98c;
+}
+
+/* ランキング */
+.ranking {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+.ranking h2 {
+  color: #f5d98c;
+}
+
+/* コンテナ */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* カード */
+.video-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  padding: 15px;
+
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 30px rgba(245,217,140,0.3);
+}
+
+/* 再生マーク */
+.video-card::after {
+  content: "▶";
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+/* 画像 */
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* テキスト */
+.title {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #f5d98c;
+}
+
+.desc {
+  color: #bbb;
+}
+
+.rating {
+  margin-top: 10px;
+  color: gold;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+</style>
+</head>
+
+<body>
+
+<header>嘘月コロンビーナ</header>
+
+<nav>
+  <a href="#">考察</a>
+  <a href="#">ネタ</a>
+  <a href="#">攻略</a>
+</nav>
+
+<!-- 🔥人気ランキング -->
+<div class="ranking">
+  <h2>🔥人気記事ランキング</h2>
+  <div>🥇 パイモンの正体</div>
+  <div>🥈 フリーナの正体</div>
+  <div>🥉 スカラマシュの過去</div>
+</div>
+
+<div class="container">
+
+<!-- パイモン -->
+<a href="paimon-secret.html" class="video-card">
+  <img src="https://img.youtube.com/vi/WsVv3rX7h0M/hqdefault.jpg">
+  <div class="title">パイモンの正体は黒幕？</div>
+  <div class="desc">最初から怪しすぎる存在を徹底考察</div>
+  <div class="rating">嘘月度：★★☆</div>
+</a>
+
+<!-- フリーナ -->
+<a href="furina-theory.html" class="video-card">
+  <img src="https://img.youtube.com/vi/6CkX7YxJ5pQ/hqdefault.jpg">
+  <div class="title">フリーナの正体は○○だった？</div>
+  <div class="desc">水神に隠された違和感の正体</div>
+  <div class="rating">嘘月度：★★★</div>
+</a>
+
+<!-- スカラマシュ -->
+<a href="scaramouche-story.html" class="video-card">
+  <img src="https://img.youtube.com/vi/pfy3C4gY4gw/hqdefault.jpg">
+  <div class="title">スカラマシュの過去がヤバすぎる</div>
+  <div class="desc">捨てられた人形の悲劇と狂気</div>
+  <div class="rating">嘘月度：★★★</div>
+</a>
+
+<!-- 召使 -->
+<a href="arlecchino-redmoon.html" class="video-card">
+  <img src="https://img.youtube.com/vi/D5nSSGdzhgc/hqdefault.jpg">
+  <div class="title">召使と赤月の関係とは？</div>
+  <div class="desc">血と運命に隠された真実</div>
+  <div class="rating">嘘月度：★★★</div>
+</a>
+
+</div>
+
+<footer>© 嘘月コロンビーナ</footer>
+
+</body>
+</html>
